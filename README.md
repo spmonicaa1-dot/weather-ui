@@ -56,7 +56,7 @@ To configure:
 
 3. Replace the API key in `App.js`:
 
-```javascript
+
 const API_KEY = "CPKRPQXTDKKW34FUEHEDYRSZB";
 
 
