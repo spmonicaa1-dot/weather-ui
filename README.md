@@ -1,16 +1,65 @@
-# React + Vite
+# Universal Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Universal Weather Dashboard is a responsive web application built with React.js that allows users to retrieve past, current, and future weather data for any city worldwide. The application integrates with the Visual Crossing Weather API to provide accurate and date-specific weather insights.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+This project demonstrates:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- API integration using REST services
+- Asynchronous data handling with fetch
+- State management using React Hooks
+- Error handling and loading states
+- Modern glassmorphism-based UI design
+- Responsive layout principles
 
-## Expanding the ESLint configuration
+The application allows users to enter a city name and select a date to retrieve detailed weather information including temperature, humidity, condition, and description.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Search weather by city
+- Select any date (past, present, or future)
+- Displays:
+  - Temperature (°C)
+  - Weather condition
+  - Detailed description
+  - Humidity percentage
+- Loading state indication
+- User-friendly error handling
+- Clean and modern UI design
+
+---
+
+## Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- Visual Crossing Weather API
+
+---
+
+## API Integration
+
+This project uses the Visual Crossing Weather API.
+
+To configure:
+
+1. Create an account at:
+   https://www.visualcrossing.com/
+
+2. Generate an API key.
+
+3. Replace the API key in `App.js`:
+
+```javascript
+const API_KEY = "CPKRPQXTDKKW34FUEHEDYRSZB";
+<img width="1914" height="955" alt="image" src="https://github.com/user-attachments/assets/2d19b5e8-616f-4a3d-8a12-a8f83cf0556b" />
+<img width="1911" height="919" alt="image" src="https://github.com/user-attachments/assets/439bf8e8-c426-4eba-8fb3-1c0f63e88067" />
+<img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/fd396aa1-d4a3-4ced-8d52-3e659889ea00" />
+<img width="1913" height="1007" alt="image" src="https://github.com/user-attachments/assets/e2ceea78-3fc4-4e53-b0ea-aca64b598936" />
+
