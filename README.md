@@ -58,6 +58,8 @@ To configure:
 
 ```javascript
 const API_KEY = "CPKRPQXTDKKW34FUEHEDYRSZB";
+
+
 <img width="1914" height="955" alt="image" src="https://github.com/user-attachments/assets/2d19b5e8-616f-4a3d-8a12-a8f83cf0556b" />
 <img width="1911" height="919" alt="image" src="https://github.com/user-attachments/assets/439bf8e8-c426-4eba-8fb3-1c0f63e88067" />
 <img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/fd396aa1-d4a3-4ced-8d52-3e659889ea00" />
